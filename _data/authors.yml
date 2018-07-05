@@ -58,7 +58,7 @@ dha8102:
     # delicious:       <username>
     # stumbleupon:     <username>
     # paypal:          <username>
-    email:           dha8102@naver.com
+    email:           mailto:dha8102@naver.com
     # rss:             
 
 # Another author
