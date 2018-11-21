@@ -11,7 +11,7 @@ title:              테카르타의 기술블로그
 description:         Tekhartha's blog
 url: https://tekhartha.com
 baseurl: /
-# urlimg: https://dha8102.github.io/lanyon-plus/images/
+urlimg: https://dha8102.github.io/lanyon-plus/images/
 production_url : https://tekhartha.com
 source_url : https://github.com/dha8102/dha8102.github.io
 markdown: kramdown
@@ -43,7 +43,7 @@ author:
 # Owner/author information
 owner:
   name:           Tekhartha
-  avatar:         foo.png
+  avatar:         me.jpeg
   #email:          
   # Use the coder's toolbox at http://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii to encode your description into XML string
   description:
