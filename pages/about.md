@@ -21,13 +21,15 @@ tags:
   - "Artificial Intelligence"
 ---
 
-![](/media/dohyun/DoHyun/Blog/images/me.jpeg)
+​                                                          
 
-​                                                           반갑습니다. 테카르타입니다.
+![https://github.com/dha8102/dha8102.github.io/blob/master/images/me.jpeg](https://github.com/dha8102/dha8102.github.io/blob/master/images/me.jpeg)
+
+ 반갑습니다. 테카르타입니다.
 
 
 
-## 인공지능과 자연어 처리에 관심있는 테카르타라고 합니다.
+#### 인공지능과 자연어 처리에 관심있는 테카르타라고 합니다.
 
-## 반가워요.
+#### 반가워요.
 
