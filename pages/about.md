@@ -5,7 +5,7 @@ permalink: /about/
 show_meta: false
 # imagefeature path is relative to images/ directory.
 imagefeature: me.jpeg
-published: false
+published: true
 description: "About example.com...."
 category: views
 comments: false
