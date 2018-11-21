@@ -2,10 +2,10 @@
 layout: page
 title: About
 permalink: /about/
-show_meta: true
+show_meta: false
 # imagefeature path is relative to images/ directory.
 imagefeature: me.jpeg
-published: true
+published: false
 description: "About example.com...."
 category: views
 comments: false
@@ -14,15 +14,16 @@ noindex: false
 sitemap:
     priority: 0.7
     changefreq: 'monthly'
-    lastmod: 2016-02-13
+    lastmod: 2018-11-21
 # tags will be used as html meta keywords.    
 tags:
-  - "foo boo"
-  - "city tx"
+  - "tekhartha"
+  - "Artificial Intelligence"
 ---
 
 <div class="post-author text-center">                       
-            <img src="{{ site.urlimg }}{{ site.owner.avatar }}" alt="반갑습니다.테카르타입니다." itemprop="image" class="post-avatar img-circle img-responsive"/> 
+            <img src="me.jpeg" alt="반갑습니다.테카르타입니다." itemprop="image" class="post-avatar img-circle img-responsive"/> 
+
 
 
 
