@@ -6,7 +6,7 @@ show_meta: false
 # imagefeature path is relative to images/ directory.
 imagefeature: me.jpeg
 published: true
-description: "About example.com...."
+description: "About tekhartha"
 category: views
 comments: false
 mathjax: false
@@ -21,15 +21,13 @@ tags:
   - "Artificial Intelligence"
 ---
 
+![](/media/dohyun/DoHyun/Blog/images/me.jpeg)
 
-
-![me](/media/dohyun/DoHyun/Blog/images/me.jpeg)
-
-​                                                             반갑습니다. 테카르타입니다.
+​                                                           반갑습니다. 테카르타입니다.
 
 
 
-#### 인공지능과 자연어 처리에 관심있는 테카르타라고 합니다.
+## 인공지능과 자연어 처리에 관심있는 테카르타라고 합니다.
 
-#### 반가워요.
+## 반가워요.
 
