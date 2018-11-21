@@ -21,16 +21,15 @@ tags:
   - "Artificial Intelligence"
 ---
 
-<div class="post-author text-center">                       
-            <img src="me.jpeg" alt="반갑습니다.테카르타입니다." itemprop="image" class="post-avatar img-circle img-responsive"/> 
+
+
+![me](/media/dohyun/DoHyun/Blog/images/me.jpeg)
+
+​                                                             반갑습니다. 테카르타입니다.
 
 
 
+#### 인공지능과 자연어 처리에 관심있는 테카르타라고 합니다.
 
+#### 반가워요.
 
-
-
-
-인공지능과 자연어 처리에 관심있는 테카르타라고 합니다.
-
-반가워요.
