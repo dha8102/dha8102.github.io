@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 show_meta: false
 # imagefeature path is relative to images/ directory.
-imagefeature: me.jpeg
+imagefeature: me.jpg
 published: true
 description: "About tekhartha"
 category: views
@@ -21,19 +21,20 @@ tags:
   - "Artificial Intelligence"
 ---
 
-​                                                          
 
 
 
 
 
-```
-![tekhartha](/images/me.jpg)
-```
+
+![](/media/dohyun/DoHyun/Blog/images/foo.png)
 
 <center>
 반갑습니다. 테카르타입니다.
 </center>
+
+
+
 
 
 </br>
