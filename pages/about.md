@@ -23,12 +23,22 @@ tags:
 
 ​                                                          
 
-![me](/media/dohyun/DoHyun/Blog/images/me.jpeg)
+
+
+
+
+```
+![tekhartha](/images/me.jpg)
+```
 
 <center>
 반갑습니다. 테카르타입니다.
 </center>
 
+
+</br>
+
+</br>
 
 
 
