@@ -25,13 +25,13 @@ tags:
 
 
 
-<center>
-    <div class="post-author text-center">                       
-                <img src="{{ site.urlimg }}{{ site.owner.avatar }}" alt="{{ site.owner.name }}'s photo" itemprop="image" class="post-avatar img-circle img-responsive"/> 
-    </div>
 
-반갑습니다. 테카르타입니다.
+<img src="https://github.com/dha8102/dha8102.github.io/blob/master/images/me.jpeg"></img>
+<center>
+###### 반갑습니다. 테카르타입니다.
 </center>
+</br>
+</br>
 
 ##### 인공지능과 자연어 처리에 관심있는 테카르타라고 합니다.
 
