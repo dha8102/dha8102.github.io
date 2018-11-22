@@ -37,7 +37,7 @@ exclude: ["lib", "config.rb", "Gemfile", "Capfile", "Gemfile.lock", "config", "l
 author:
   name:              Tekhartha
   url:               tekhartha.com
-  avatar:         foo.png
+  avatar:         me.jpeg
   github:         https://github.com/dha8102
 
 # Owner/author information

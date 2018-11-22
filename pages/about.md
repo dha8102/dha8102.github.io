@@ -25,9 +25,11 @@ tags:
 
 
 
+<center>
+    <div class="post-author text-center">                       
+                <img src="{{ site.urlimg }}{{ site.owner.avatar }}" alt="{{ site.owner.name }}'s photo" itemprop="image" class="post-avatar img-circle img-responsive"/> 
+    </div>
 
-
-<center>![me.jpeg](/media/dohyun/DoHyun/Blog/images/me.jpeg)
 반갑습니다. 테카르타입니다.
 </center>
 
