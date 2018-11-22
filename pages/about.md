@@ -27,7 +27,9 @@ tags:
 
 
 
-![](/media/dohyun/DoHyun/Blog/images/foo.png)
+```html
+<img src="https://github.com/dha8102/dha8102.github.io/blob/master/images/me.jpg">
+```
 
 <center>
 반갑습니다. 테카르타입니다.
@@ -37,9 +39,9 @@ tags:
 
 
 
-</br>
+<br />
 
-</br>
+<br />
 
 
 
