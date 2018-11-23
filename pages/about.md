@@ -21,28 +21,16 @@ tags:
   - "Artificial Intelligence"
 ---
 
-
-
-<img src = "https://raw.githubusercontent.com/dha8102/dha8102.github.io/master/images/me.jpg">
-
-
-
 <center>
-반갑습니다. 테카르타입니다.
+    <img src = "https://raw.githubusercontent.com/dha8102/dha8102.github.io/master/images/me.jpg"><br><br>
+    반갑습니다. 테카르타입니다.
 </center>
 
 
 
-
 <br>
 
 <br>
-
-
-
-
-
-
 
 
 ##### 인공지능과 자연어 처리에 관심있는 테카르타라고 합니다.
