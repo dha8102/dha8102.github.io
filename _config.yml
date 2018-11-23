@@ -74,8 +74,8 @@ links:
     url: /tags/
   - title: <i class="fa fa-archive"></i> Archive
     url: /archive/
-  - title: <i class="iconside iconm-envelop"></i> Contact
-    url: /contact/
+#  - title: <i class="iconside iconm-envelop"></i> Contact
+#    url: /contact/
   - title: <i class="iconside iconm-feed2"></i> Feed
     url: /feed.xml
 
