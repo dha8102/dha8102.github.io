@@ -68,12 +68,12 @@ links:
     url: /
   - title: <i class="iconside iconm-user"></i> About
     url: /about/
-  - title: <i class="iconside iconm-quill"></i> Blog
+  - title: <i class="fas fa-language"></i> NLP
     url: /blog/
   - title: <i class="fa fa-tags"></i> Tags
     url: /tags/
-  - title: <i class="fa fa-archive"></i> Archive
-    url: /archive/
+  - title: <i class="fas fa-music"></i> Music
+    url: /music/
 #  - title: <i class="iconside iconm-envelop"></i> Contact
 #    url: /contact/
   - title: <i class="iconside iconm-feed2"></i> Feed
