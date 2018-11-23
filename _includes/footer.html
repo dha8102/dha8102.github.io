@@ -9,9 +9,10 @@
             {% endif %}
 <center>
             <li><a href="{{ domain }}{{ social_item.url }}" rel="me" {% if social_item.url contains 'http' %} target="_blank" {% endif %} class="social-icons" title="{{ social_item.title }}"> <i class="{{ social_item.class }} fa-2x"></i></a></li>
+</center>
             {% endfor %}          
             </ul>
             </div>
             <h6 class="text-footer"><a rel="license" href="{{ site.url }}/disclosure/" title="CC BY-NC-SA 4.0 License, link to site disclosure" class="social-icon"><i class="fa fa-creative-commons"></i></a> <a rel="license" href="{{ site.url }}/disclosure/" title="CC BY-NC-SA 4.0 License, link to site disclosure">2018-{{ site.time | date: '%Y' }}</a>: <a href="{{ site.url }}" title="Home">tekhartha.com</a> | <a href="{{ site.url }}/about/" rel="me">About</a></h6>
             </div>
-</center>
+
