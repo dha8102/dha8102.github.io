@@ -4,10 +4,6 @@
   class: fa fa-github-square
   title: Code repository
 
-- name: Contact
-  url: "/contact/"
-  class: fa fa-envelope-square
-  title: "Contact with me"
 
 - name: RSS
   url: "/feed.xml"
