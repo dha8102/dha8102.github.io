@@ -16,13 +16,14 @@ tags:
   - "foo boo"
   - "driving directions"
   - address
+
 ---
 
-| <i class="fa fa-envelope"></i> | dha8102@naver.com |
-| :-: | :- |
-| - | :- |
-
 <br>
+
+| <i class="fa fa-envelope"></i> | dha8102@naver.com |
+| :----------------------------: | :---------------: |
+|                                |                   |
 
 
 
