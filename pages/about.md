@@ -22,9 +22,10 @@ tags:
 ---
 
 <center>
-    <img src = "https://raw.githubusercontent.com/dha8102/dha8102.github.io/master/images/me.jpg"><br><br>
+    <img src = "https://raw.githubusercontent.com/dha8102/dha8102.github.io/master/images/me.jpg"><br>
     반갑습니다. 테카르타입니다.
 </center>
+
 
 
 
