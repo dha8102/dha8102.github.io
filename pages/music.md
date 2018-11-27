@@ -24,8 +24,9 @@ tags:
 
 
 
+<img src = "https://raw.githubusercontent.com/dha8102/dha8102.github.io/master/images/music/sungha.jpg">
 
+<br>
 
+#### **음악과 기타에 대한 포스트를 정리하는 공간입니다.**
 
-
-**음악과 기타에 대한 포스트를 정리하는 공간입니다.**
