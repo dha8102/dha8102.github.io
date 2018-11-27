@@ -68,8 +68,8 @@ links:
     url: /
   - title: <i class="iconside iconm-user"></i> About
     url: /about/
-  - title: <i class="fas fa-language"></i> NLP
-  # title: <img src = ></i> NLP
+  #- title: <i class="fas fa-language"></i> NLP
+  - title: <img src = "https://raw.githubusercontent.com/dha8102/dha8102.github.io/master/icons/nlp.png"> NLP
     url: /blog/
   - title: <i class="fa fa-tags"></i> Tags
     url: /tags/
