@@ -67,7 +67,7 @@ links:
   - title: <i class="iconside iconm-home"></i> Home
     url: /
   #- title: <i class="iconside iconm-user"></i> About
-  - title : <img src = "https://raw.githubusercontent.com/dha8102/dha8102.github.io/master/images/icons/Multimedia/PNG/24/2849831%20-%20account%20avatar%20interface%20multimedia%20person%20profile%20user.png"> About
+  - title : <img src = "https://raw.githubusercontent.com/dha8102/dha8102.github.io/master/images/icons/Multimedia/PNG/24/2849831%20-%20account%20avatar%20interface%20multimedia오후 12:10 2018-11-27%20person%20profile%20user.png" border="0" align="absmiddle"> About
     url: /about/
   - title: <i class="fas fa-language"></i> NLP
   #- title: <img src = "https://raw.githubusercontent.com/dha8102/dha8102.github.io/master/icons/nlp.png"> NLP
