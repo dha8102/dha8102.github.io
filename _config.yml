@@ -1,4 +1,4 @@
-# Permalinks
+﻿# Permalinks
 #
 # Use of `relative_permalinks` ensures post links from the index work properly.
 #permalink:           pretty
@@ -69,6 +69,7 @@ links:
   - title: <i class="iconside iconm-user"></i> About
     url: /about/
   - title: <i class="fas fa-language"></i> NLP
+  # title: <img src = ></i> NLP
     url: /blog/
   - title: <i class="fa fa-tags"></i> Tags
     url: /tags/
