@@ -87,7 +87,7 @@ links:
     url: /feed.xml
 
 #Google Custom Search: tekhartha
-google_search: tekhartha
+#google_search: tekhartha
 
 # Twitter stream widget:
 # Replace xyz123abc with your twitter widget id from https://twitter.com/settings/widgets
