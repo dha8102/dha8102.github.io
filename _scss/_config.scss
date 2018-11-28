@@ -10,13 +10,14 @@ $blue:     #6a9fb5;
 $magenta:  #aa759f;
 $brown:    #8f5536;
 $default:  #505050;
+$darkchocolate:  #490206
 
 $white:      #fff;
 $lightgrey:  #eee;
 $black:      #000;
 
-$theme-color: $blue;
-$theme-color-dark: darken($theme-color, 10%);
+$theme-color: $darkchocolate;
+$theme-color-dark: darken($theme-color, 00%);
 
 $post-date-color: #9a9a9a;
 $title-color: #313131;
