@@ -1,7 +1,7 @@
 # Site Info
 title: Tekartha's Blog
-tagline: 'Tekhartha's blog'
-description: 'Tekhartha's technique blog'
+tagline: 'Tekhartha의 기술블로그'
+description: 'Tekhartha의 기술블로그'
 baseurl: "/"
 url: https://tekhartha.com
 logo: '/public/logo.png'
