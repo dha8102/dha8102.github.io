@@ -43,6 +43,10 @@ nav:
     - '/blog/'
     - { Categories: '/blog/categories/' }
     - { Tags: '/blog/tags/' }
+  NLP:
+    - '/nlp/'
+    - { Categories: '/nlp/categories/' }
+    - { Tags: '/nlp/tags/' }
   About:          
     - '/about/'
   Github Project: 
