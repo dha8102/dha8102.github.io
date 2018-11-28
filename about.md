@@ -3,9 +3,11 @@ layout: page
 title: About
 ---
 
+---
+
 ## 반갑습니다. 테카르타입니다.
 
-
+<br>
 
 인공지능과 자연어 처리,
 
@@ -23,4 +25,5 @@ title: About
 
 지난 프로젝트 : 
 
-- <a href = "https://gitlab.com/pirl-intern/smart-switch">J.A.R.V.I.S.Switch (손의 모션을 인식하여 지정된 동작을 수행하는 프로그램)</a>
+- <a href = "https://gitlab.com/pirl-intern/smart-switch" target="_blank">J.A.R.V.I.S.Switch (손의 모션을 인식하여 지정된 동작을 수행하는 프로그램)</a>
+
