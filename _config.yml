@@ -1,102 +1,63 @@
-﻿# Permalinks
-#
-# Use of `relative_permalinks` ensures post links from the index work properly.
-#permalink:           pretty
-permalink: /blog/:year/:month/:day/:title/
-relative_permalinks: false
+# Site Info
+title: Codinfox Lanyon
+tagline: 'A Jekyll theme based on Lanyon'
+description: 'A Jekyll theme adapted from <a href="http://lanyon.getpoole.com/" target="_blank">Lanyon</a>. Made by <a href="http://codinfox.github.io" target="_blank">@codinfox</a>.'
+baseurl: "/lanyon"
+url: http://codinfox.github.io
+logo: '/public/logo.png'
 
-# Setup
-title:              테카르타의 기술블로그
-#tagline:             Tekhartha's blog
-description:         Tekhartha's blog
-url: https://tekhartha.com
-baseurl: /
-urlimg: https://github.com/dha8102/dha8102.github.io/tree/master/images
-production_url : https://tekhartha.com
-source_url : https://github.com/dha8102/dha8102.github.io
-markdown: kramdown
-paginate: 5
-paginate_path: "/blog/page:num"
-excerpt_separator: <!--more-->
-default_bg: sitelogo.png 
-safe: false
-#timezone:    America/Chicago
-future:      true
-
+# Site configurations
 gems:
   - jekyll-paginate
-  - jemoji
-  - font-awesome-sass
-  - kramdown
-  - rouge
+markdown: kramdown
+kramdown:
+  input: GFM
+excerpt_separator: "<!-- more -->"
+sass:
+  style: compressed
+  sass_dir: _scss    
+paginate: 5
+paginate_path: '/blog/page:num'
+permalink: pretty
 
-include: [".htaccess"]
-exclude: ["lib", "config.rb", "Gemfile", "Capfile", "Gemfile.lock", "config", "log", "Rakefile", "Rakefile.rb", "rakefile", "README.md", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "LICENSE", "vendor", "assets", "_plugins", "public/dormant"]
+version: 1.0.0
 
 # About/contact
 author:
-  name:              Tekhartha
-  url:               tekhartha.com
-  avatar:         me.jpeg
-  github:         https://github.com/dha8102
+  name: Codinfox
+  description: A passionate <strong>developer and researcher</strong>, learning to be a giant.
+  gravatar: 3c2986ad7ac1f2230ea3596f44563328 # md5 hash of your email address
+  contact:
+    linkedin:  https://www.linkedin.com/in/lizhihao
+    github:    https://github.com/codinfox
+    # facebook:  <hide>
+    twitter:   https://twitter.com/Li_Zhihao
+    weibo:     http://weibo.com/41173780
+    email:     http://www.google.com/recaptcha/mailhide/d?k=01I3lZFiZYng9N3QxYEtsDaQ==&c=31wAnZkuKqcG0ATAqJN8Z3ln5kkYLA9TwkGc-IbygpM=
 
-# Owner/author information
-owner:
-  name:           Tekhartha
-  avatar:         me.jpeg
-  #email:          
-  # Use the coder's toolbox at http://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii to encode your description into XML string
-  description:
-  # Social networking links used in footer. Update and remove as you like.
-  twitter:        
-  facebook:       
-  github:         https://github.com/dha8102
-  stackexchange:  
-  linkedin:       
-  instagram:      
-  flickr:
-  tumblr:  
-  
-_plus:    
-  # orcid and google scholar IDs are different than standard username.
-  orcid: 
-  gscholar: 
+# Navigation (2nd level links supported)
+nav:
+  Home:           
+    - '/'
+  Blog:           
+    - '/blog/'
+    - { Categories: '/blog/categories/' }
+    - { Tags: '/blog/tags/' }
+  About:          
+    - '/about/'
+  Github Project: 
+    - 'http://codinfox.github.io/'
 
-## sidebar links:
-# For external links add external: true
-links:
-  - title: <i class="iconside iconm-home"></i> Home
-    url: /
-  - title: <i class="iconside iconm-user"></i> About
-    url: /about/
-  - title: <i class="fas fa-language"></i> NLP
-    url: /blog/
-  - title: <i class="fa fa-microchip" aria-hidden="true"></i> Machine Learning
-    url: /blog/
-  - title: <i class="fas fa-brain"></i> Deep Learning
-    url: /blog/
-  - title: <i class="fas fa-laptop"></i> Programming
-    url: /blog/
-  - title: <i class="fab fa-internet-explorer"></i> Web
-    url: /blog/ 
-  - title: <i class="fa fa-tags"></i> Tags
-    url: /tags/
-  - title: <i class="fas fa-music"></i> Music
-    url: /music/
-  - title: <i class="iconside iconm-feed2"></i> Feed
-    url: /feed.xml
+# Where are tags and categories displayed
+tag_page: '/blog/tags/'
+category_page: '/blog/categories/'
 
-#Google Custom Search: tekhartha
-#google_search: tekhartha
+hero:
+  image: /public/img/we_will_be_giants_by_yalestewart.jpg
+  caption: Original Artwork &copy; <a href="http://yalestewart.deviantart.com/art/We-Will-Be-Giants-370176475">Yale Stewart</a>
 
-# Twitter stream widget:
-# Replace xyz123abc with your twitter widget id from https://twitter.com/settings/widgets
-#twitter_widget_id: xyz123abc
+# Puglins
+mathjax: true # whether support mathjax
+google_analytics_token: 'UA-00000000-1' # leave blank if you don't want google analytics
+disqus_short_name: 'your_short_name' # leave blank if you don't want disqus
 
-# Add disqus username for Disqus comment board:
-disqus_shortname: tekhartha
-
-# Analytics and webmaster tools stuff goes here
-#google_analytics:   xyz123abc
-
-category_dir : category/
