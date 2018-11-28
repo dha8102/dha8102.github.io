@@ -40,21 +40,22 @@
     <a class="sidebar-nav-item" href="{{ site.github_repo }}"><em>lanyon-plus project</em></a>
     <a class="sidebar-nav-item" href="{{ site.github_repo }}/releases/tag/v{{ site.version }}">Download v{{ site.version }}</a>
     {% endif %}
+	<div>
+	  <div class="sidebar-nav-item">Category</div>
+	  <nav class="content-ul">
+	    {% for category in site.categories %}
+	    <a href="{{ root_url }}/{{ site.category_dir }}#{{ category | first }}"
+	       class="sidebar-nav-item pl-3rem">
+		                  <span class="name">
+		                      {{ category | first }}
+		                  </span>
+	      <span class="badge">{{ category | last | size }}</span>
+	    </a>
+	    {% endfor %}
+	  </nav>
+	</div>
   </nav>
-<div>
-  <div class="sidebar-nav-item">Category</div>
-  <nav class="content-ul">
-    {% for category in site.categories %}
-    <a href="{{ root_url }}/{{ site.category_dir }}#{{ category | first }}"
-       class="sidebar-nav-item pl-3rem">
-                          <span class="name">
-                              {{ category | first }}
-                          </span>
-      <span class="badge">{{ category | last | size }}</span>
-    </a>
-    {% endfor %}
-  </nav>
-</div>
+
 
 <hr class="gh">
 
