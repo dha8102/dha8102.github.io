@@ -53,7 +53,9 @@ tag_page: '/blog/tags/'
 category_page: '/blog/categories/'
 
 hero:
-  image: <a href="/blog/"> /public/img/in_spain.jpg </a>
+# image: /public/img/in_spain.jpg
+# image : <a href="/blog"><img src = "https://raw.githubusercontent.com/dha8102/dha8102.github.io/master/public/img/in_spain.jpg"></a>
+  image : <a href="/blog/"> </a> /public/img/in_spain.jpg 
   caption: Barcelona, Spain, 2016
 
 # Puglins
