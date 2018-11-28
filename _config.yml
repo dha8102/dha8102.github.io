@@ -25,7 +25,7 @@ version: 1.0.0
 # About/contact
 author:
   name: tekhartha
-  description: 테카르타의 블로그
+  description: 테카르타의 인공지능 기술블로그
   gravatar: 07E426B2E102ABC13C6F2C47FA9B04D1 # md5 hash of your email address
   contact:
     linkedin:  
@@ -46,7 +46,7 @@ nav:
   About:          
     - '/about/'
   Github Project: 
-    - 'https://dha8102.github.io/'
+    - 'https://github.com/dha8102'
 
 # Where are tags and categories displayed
 tag_page: '/blog/tags/'
