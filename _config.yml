@@ -1,7 +1,7 @@
 # Site Info
 title: Tekartha's Blog
-tagline: 'Tekhartha의 기술블로그'
-description: 'Tekhartha의 기술블로그'
+tagline: 'Tekhartha의 인공지능 기술블로그'
+description: 'Tekhartha의 인공지능 기술블로그'
 baseurl: "/"
 url: https://tekhartha.com
 logo: '/public/logo.png'
@@ -39,12 +39,10 @@ author:
 nav:
   Home:           
     - '/'
-  전체 글 보기:           
+  Blog:           
     - '/blog/'
     - { List by Categories: '/blog/categories/' }
     - { List by Tags: '/blog/tags/' }
-  NLP:
-    - '/nlp/'
   About:          
     - '/about/'
   Github Project: 
@@ -55,7 +53,7 @@ tag_page: '/blog/tags/'
 category_page: '/blog/categories/'
 
 hero:
-  image: /public/img/in_spain.jpg
+  image: <a href="/blog/"> /public/img/in_spain.jpg </a>
   caption: Barcelona, Spain, 2016
 
 # Puglins
