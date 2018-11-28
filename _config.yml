@@ -39,14 +39,12 @@ author:
 nav:
   Home:           
     - '/'
-  Blog:           
+  전체 글 보기:           
     - '/blog/'
-    - { Categories: '/blog/categories/' }
-    - { Tags: '/blog/tags/' }
+    - { List by Categories: '/blog/categories/' }
+    - { List by Tags: '/blog/tags/' }
   NLP:
     - '/nlp/'
-    - { Categories: '/nlp/categories/' }
-    - { Tags: '/nlp/tags/' }
   About:          
     - '/about/'
   Github Project: 

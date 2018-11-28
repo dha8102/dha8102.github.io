@@ -1,0 +1,9 @@
+---
+layout: NLP
+---
+<ul id="post-list">
+    {% for post in site.categories.NLP %}
+        {% include NLP.html %}
+    {% endfor %}
+</ul>
+{% include pagination.html %}
