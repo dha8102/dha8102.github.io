@@ -63,9 +63,9 @@ R4 : VP -> V NP
 
 R5 : VP -> V
 
-R6 : N -> Person Name | He | She | boy | Girl | It |cricket | song | book
+R6 : N -> Person Name \| He \| She \| boy \| Girl \| It \|cricket \| song \| book
 
-R7 : V -> likes | reads | dogs
+R7 : V -> likes \| reads \| dogs
 
 이 문법을 통하여 "He likes cricket"를 파싱하면,
 
