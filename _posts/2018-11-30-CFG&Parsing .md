@@ -69,7 +69,7 @@ R7 : V -> likes | reads | dogs
 
 이 문법을 통하여 "He likes cricket"를 파싱하면,
 
-
+<a href ="https://raw.githubusercontent.com/dha8102/dha8102.github.io/master/public/postimage/CFG%26Parsing/parsing.jpg"></a>
 
 와 같이 된다.
 
