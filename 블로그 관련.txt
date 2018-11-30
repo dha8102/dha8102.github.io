@@ -1,0 +1,15 @@
+--- 카테고리 ---
+O/S, Music, NLP, Deep Learning, Machine Learning, Programming
+
+* 카테고리는 하나만, 태그는 중복 가능하고 여러 가지 쓸 수 있도록 작성
+
+
+---올릴 글들 ---
+﻿1. 유튜브 동영상 비율 맞게 올리는 법
+- http://embedresponsively.com/ 
+요기에 유튜브 동영상 붙여넣고 복사
+
+2. git 관련 명령어 정리
+
+3. 로고 만들기
+4. 한글 글씨체 확인할것
