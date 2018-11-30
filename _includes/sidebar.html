@@ -58,7 +58,18 @@
 
     <span class="sidebar-nav-item">Currently v{{ site.version }}</span>
   </nav>
-
+  <script>
+  (function() {
+    var cx = '004402485036018953493:87nxya0jgvc';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<gcse:searchbox></gcse:searchbox>
   <div class="sidebar-item">
     <p>
     &copy; {{ site.time | date: '%Y' }} {{ site.author.name }}. This work is liscensed under <a href="http://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</a>.
