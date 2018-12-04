@@ -3,7 +3,7 @@ layout: post
 title: 텐서플로우 시작하기
 categories : [Deep learning]
 
-tags : [Deep learning, Machine Learning, Tensorflow, 모두의 딥러닝, Framework]
+tags : [Deep learning, Machine learning, Tensorflow, 모두를 위한 딥러닝, Framework]
 
 ---
 

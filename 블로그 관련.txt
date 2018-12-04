@@ -8,8 +8,8 @@ O/S, Music, NLP, Deep Learning, Machine Learning, Programming
 ﻿1. 유튜브 동영상 비율 맞게 올리는 법
 - http://embedresponsively.com/ 
 요기에 유튜브 동영상 붙여넣고 복사
++ 수식 입력 방법
+2. 마크다운 문법 정리
+3. git 관련 명령어 정리
+4. 패캠에서 배웠던 기초통계분석 정리할것
 
-2. git 관련 명령어 정리
-
-3. 로고 만들기
-4. 한글 글씨체 확인할것

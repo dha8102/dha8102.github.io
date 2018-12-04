@@ -61,7 +61,11 @@ tags : [O/S]
 
 - 하드웨어 정보 보기 : sudo apt-get install lshw-gtk 후 gksu lshw-gtk로 확인, 또는 메뉴에서 Hardware Lister 검색
 
-- lspci | grep -i VGA : 그래픽 카드 정보 보기
+- lspci \| grep -i VGA : 그래픽 카드 정보 보기
+
+- nvidia-smi : (nvidia 그래픽 카드 장착되었을 때) gpu 정보 및 메모리 사용률 보기
+
+- (sudo) kill -9 PID : 해당 PID의 프로세스를 강제 종료
 
   <br>
 
