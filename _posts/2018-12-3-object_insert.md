@@ -30,7 +30,7 @@ tags : [Blog, Web]
 
 ## [블로그에 사진 삽입하기]
 
-사진을 자신의 깃허브에 올리고 그곳의 링크를 가지고 와도 상관없지만, 깃허브의 용량 제한 때문에 그림이 많아지면 나중에 문제가 발생할 수 있다고 판단, <a href = "https://imageshack.us/">ImageShack</a> 사이트를 이용하기로 했다. 이곳에 가입하고 그림을 올리면 오른쪽에 GET LINKS / IMAGE SIZES 버튼이 나오는데, 여길 눌러서 나오는 링크를 블로그에 <img src ="이미지 주소"> 형식으로 걸어주면 된다.
+사진을 자신의 깃허브에 올리고 그곳의 링크를 가지고 와도 상관없지만, 깃허브의 용량 제한 때문에 그림이 많아지면 나중에 문제가 발생할 수 있다고 판단, <a href = "https://imageshack.us/">ImageShack</a> 사이트를 이용하기로 했다. 이곳에 가입하고 그림을 올리면 오른쪽에 GET LINKS / IMAGE SIZES 버튼이 나오는데, 여길 눌러서 나오는 링크를 블로그에 `<img src ="이미지 주소"> `형식으로 걸어주면 된다.
 
 <img src = "https://imageshack.com/a/img923/9969/Tnpsah.jpg">
 
