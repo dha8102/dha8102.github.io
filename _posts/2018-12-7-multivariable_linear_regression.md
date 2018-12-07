@@ -17,11 +17,11 @@ tags : [Deep learning, Tensorflow, Regression, 모두를 위한 딥러닝]
 
 ## [텐서플로우에서 다변량을 표현하는 방법]
 
-일반적으로 회귀식을 나타낼 때는 $<a href="https://www.codecogs.com/eqnedit.php?latex=H(x)=Wx&plus;b" target="_blank"><img src="https://latex.codecogs.com/gif.latex?H(x)=Wx&plus;b" title="H(x)=Wx+b" /></a>$ 로 표현한다. 이건 x가 일변량일 때다. 하지만 다변량일 때는?
+일반적으로 회귀식을 나타낼 때는 <a href="https://www.codecogs.com/eqnedit.php?latex=H(x)=Wx&plus;b" target="_blank"><img src="https://latex.codecogs.com/gif.latex?H(x)=Wx&plus;b" title="H(x)=Wx+b" /></a>로 표현한다. 이건 x가 일변량일 때다. 하지만 다변량일 때는?
 
 "행렬"을 사용하여 표현한다.
 
-$<a href="https://www.codecogs.com/eqnedit.php?latex=w_{1}x_{1}&plus;w_{2}x_{2}&plus;w_{3}x_{3}&plus;...&plus;w_{n}x_{n}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?w_{1}x_{1}&plus;w_{2}x_{2}&plus;w_{3}x_{3}&plus;...&plus;w_{n}x_{n}" title="w_{1}x_{1}+w_{2}x_{2}+w_{3}x_{3}+...+w_{n}x_{n}" /></a>$
+<a href="https://www.codecogs.com/eqnedit.php?latex=w_{1}x_{1}&plus;w_{2}x_{2}&plus;w_{3}x_{3}&plus;...&plus;w_{n}x_{n}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?w_{1}x_{1}&plus;w_{2}x_{2}&plus;w_{3}x_{3}&plus;...&plus;w_{n}x_{n}" title="w_{1}x_{1}+w_{2}x_{2}+w_{3}x_{3}+...+w_{n}x_{n}" /></a>
 
 요 식을
 
@@ -31,7 +31,7 @@ $<a href="https://www.codecogs.com/eqnedit.php?latex=w_{1}x_{1}&plus;w_{2}x_{2}&
 
 x1, x2, x3 3개의 변수를 가진 5개의 데이터 셋으로 각각의 가중치(w1,w2,w3)를 알아내기 위해서 위와 같은 행렬의 곱을 이용해 표현했다. 앞의 행렬을 X, 가중치 행렬을 W라고 하면 다음과 같이 표현 가능하다 :
 
-$<a href="https://www.codecogs.com/eqnedit.php?latex=H(x)=XW" target="_blank"><img src="https://latex.codecogs.com/gif.latex?H(x)=XW" title="H(x)=XW" /></a>$
+<a href="https://www.codecogs.com/eqnedit.php?latex=H(x)=XW" target="_blank"><img src="https://latex.codecogs.com/gif.latex?H(x)=XW" title="H(x)=XW" /></a>
 
 텐서플로우에서는 위와 같이, 가중치 행렬이 변량들의 뒤로 가게 된다.
 
