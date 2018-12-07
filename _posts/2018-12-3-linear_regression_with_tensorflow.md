@@ -2,7 +2,7 @@
 layout: post
 title: Tensorflow로 선형 회귀 만들기
 categories : [Deep learning]
-tags : [Deep learning, Linear regression, Tensorflow, 모두를 위한 딥러닝]
+tags : [Deep learning, Regression, Tensorflow, 모두를 위한 딥러닝]
 ---
 
 <span style = "line-height:50%"><br></span>

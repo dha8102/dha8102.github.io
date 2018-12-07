@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 딥 러닝/머신 러닝에 나오는 수학 개념 정리
-categories : [Deep learning Machine learning]
+categories : [Deep learning, Machine learning]
 tags : [Deep learning, Machine learning, Mathmatics, Calculus, Linear Algebra]
 
 ---
