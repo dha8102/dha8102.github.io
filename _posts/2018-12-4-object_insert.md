@@ -17,7 +17,7 @@ tags : [Blog, Web]
 
 <a href = "http://embedresponsively.com/ ">embedresponsively.com</a>에 들어가서 붙여넣기 하고 Embed 클릭. -> HTML 코드 생성.
 
-이 코드를 그대로 복사해서 블로그 편집창에 붙여넣기 하면 끝. (저는 Typora 편집기를 쓰기 때문에 HTML 코드를 자동으로 인식해서 동영상을 보여줍니다. 다른 마크다운 편집기를 쓰시는 분들은 HTML을 인식하게끔 처리해 주세요)
+블로그 편집창에 먼저 [div] 태그로 html 구간을 설정한 다음, 위에서 생성한 html 코드를 붙여넣는다. (저는 Typora 편집기를 쓰기 때문에 HTML 코드를 자동으로 인식해서 동영상을 보여줍니다. 다른 마크다운 편집기를 쓰시는 분들은 HTML을 인식하게끔 처리해 주세요)
 
 <div>
     <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/DCJ7XY12lwM' frameborder='0' allowfullscreen></iframe></div>
