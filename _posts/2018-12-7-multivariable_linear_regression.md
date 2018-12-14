@@ -225,3 +225,7 @@ Other scores will be  [[ 141.10997009]
 
 <a href = "https://www.youtube.com/playlist?list=PLlMkM4tgfjnLSOjrEJN31gZATbcj_MpUm"> 김성훈 교수님의 "모두를 위한 딥러닝"</a>
 
+\* 이번 포스팅에 사용된 csv 파일은 아래 링크에 있습니다.
+
+<a href = "https://drive.google.com/open?id=1pszUz1I-zam8QX8sJ8oqvsBZ3fhswp-a">파일 링크</a>
+
