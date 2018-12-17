@@ -10,7 +10,7 @@ tags : [Deep learning, Machine learning, Mathmatics, Calculus, Linear Algebra]
 
 딥 러닝 및 머신 러닝을 공부하기 위해 반드시 필요한 대학 수준의 수학 개념들을 정리한 블로그 및 사이트를 소개한다.
 
-<지속 업데이트>
+\<지속 업데이트>
 
 ## [선형대수]
 
