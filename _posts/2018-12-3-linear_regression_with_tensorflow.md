@@ -177,7 +177,7 @@ plt.show()
 
 결과는 다음과 같다 :
 
-<img src = "https://imageshack.com/a/img922/6956/CDAhk6.png">
+<a href="http://www.imagebam.com/image/6dd5a51066268044" target="_blank"><img src="http://thumbs2.imagebam.com/4c/95/76/6dd5a51066268044.jpg" alt="imagebam.com" align="center"></a>
 
 파란색이 var1, 노란색이 var2이다. 대략 6000번의 epoch를 거치면서 각각 2.0과 0.5로 수렴하여 간다.
 

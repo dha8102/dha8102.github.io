@@ -69,7 +69,7 @@ R7 : V -> likes \| reads \| dogs
 
 이 문법을 통하여 "He likes cricket"를 파싱하면,
 
-<img src="https://imageshack.com/a/img921/2863/0rnsfS.jpg">
+<a href="http://www.imagebam.com/image/dd74571066265914" target="_blank"><img src="http://thumbs2.imagebam.com/1b/18/a2/dd74571066265914.jpg" alt="imagebam.com" align="center"></a>
 
 와 같이 된다.
 
