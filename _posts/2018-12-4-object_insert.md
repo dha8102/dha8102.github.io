@@ -32,7 +32,7 @@ tags : [Blog, Web]
 
 사진을 자신의 깃허브에 올리고 그곳의 링크를 가지고 와도 상관없지만, 깃허브의 용량 제한 때문에 그림이 많아지면 나중에 문제가 발생할 수 있다고 판단, <a href = "https://imageshack.us/">ImageShack</a> 사이트를 이용하기로 했다. 이곳에 가입하고 그림을 올리면 오른쪽에 GET LINKS / IMAGE SIZES 버튼이 나오는데, 여길 눌러서 나오는 링크를 블로그에 `<img src ="이미지 주소"> `형식으로 걸어주면 된다.
 
-<img src = "https://imageshack.com/a/img923/9969/Tnpsah.jpg">
+<img src = "https://lh3.googleusercontent.com/EMVHAOXFkCsfzMvYg_kYtoRXTfFA2F1_Wr2A5bV3TyjjhpzjAIqkTsshnR8gVvqbQtYAUc22vxc9Mh8vuszBjtx-QiHe2cDuzkN9kMNv051I7Cb2qz-jbAWZyYfgG_Yu6VMVq1XdP9DcsGbbaWu3k9z_TlaxpGWiQ7RRvM7wuJSEIMTGI8UXoR5vTrkGTy6FoWKz4Ch3BABrml9tCP9CK85xh_ONNSHuNv1Bw41bJ-SKAu5OvI1bDz07wPlF-Ss1vdvOEHvjt991pWi_LeKCHnBDw4_NSXXvClU7lMAo8MSHZCH7RIDDCeSzudusc1tLMS0pk07YYoySrqyEsWBil3_Rl94X1wZzHyySqqWZVB7lSf9FIOuneVhQmWFluMZq0kG7IKZ-mErLTg6xJ6ZL5qpshmM15EXi33FxQyanskwpd5Inc7GapxO1M7MmdE4caVge8DmbVXDfyXcW5wYl2_lBkGfoxHNJzJkLOJ1uiGAWsvfsuLh186XDwuapShzNLUF0yuT-QycgnPArlmBLTagWMbRdxn5Yui25hApjGuIVyIiB-5bRQ-VCdt3p5AO_xVt_Icbt62IF85v7uIKMicPyjMSmW2dDkcA8xhDc6EzuRpm3CwAniaF2PUe-ICybSIKfye8CSSb9qlaw7xj9Z8s=w960-h630-no">
 
 깔끔하다. 개발자 도구 확인해 보시길.
 

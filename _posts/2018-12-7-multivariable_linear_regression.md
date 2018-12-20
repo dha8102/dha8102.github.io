@@ -25,7 +25,7 @@ tags : [Deep learning, Tensorflow, Regression, 모두를 위한 딥러닝]
 
 요 식을
 
-<img src = "https://imageshack.com/a/img921/1309/ZTsS35.png">
+<img src = "https://lh3.googleusercontent.com/-0K0BOgL43u16dkJnz7QF1MvawfYmGJkABOZIlu6EpPAComjC2sHIHZMco1PVhoKflLTnhDVKP2pQOoI0GBMYxaitlEWABkAL3VECsuPaq4TtPmoSA9W8dGZJ3DEpuaG7Oa-lmYNQrehkmFYDk5z2p03WIpoOXiy2SAF2xTvEK8dbQeYOXqaKzwzLdP8O38A-PWny_YofGu0quazz7JdT4_gIWaydmcOA5dPwXnDBOOUTg5gjWEUHwa1UYD18QGwjuCK128gJ8PGag1g2T1fASPncTznRBOaIDD9gWdinoBMdNERoubezFBpjITtBR173znhG8nH15yQJGhDVzhPxPZQzmhTlmeSzW5xLF2u-xbyM1_zIriWB_7ia3hcPKvfPbIpG9gLd6CA9j2GlW3kqu4wgnYsr-YU5kdFwyDsA2-n_HNmDCWGKiSvyX4jLGOQ4ZC_82DTKTv6B9ZkDq5ZJjdW60pJxrC-tTvVP4bHF2wjaxxfnIlcSYG9KjpYcq34CGOStfK0YuAL6Yx2uFhqujiuf2va9n6joVYAhKFPXmqomHh1dtpBmMfLPcyz8ClOhzHQdZEAyfSjQZKQng3f7ki8_EjX6GeCtu187bLyQ5xAFfUFvxSx8tFH1mPFH2gMB1Xmfp1UsQWyWYMlE0v-DU4=w1613-h399-no">
 
 요로코롬.
 
@@ -45,7 +45,7 @@ shape 계산이 헷갈릴 때 요것만 머릿속에 넣고 있으면 안 헷갈
 
 파일이 용량이 클 땐 메모리에 모든 데이터를 올려서 처리가 불가능하다. 그래서 텐서플로우에서는 'Queue Runners' 라는 방법을 사용하는데, 이 방법은 밑의 그림처럼 file들을 queue로 나누어서 적절한 용량만큼 read, decode하여 example queue에 메모리 부하가 과도하게 걸리지 않을 만큼 잘라서 넣는 방법이다.
 
-<img src = "https://imageshack.com/a/img923/6024/BnPy0d.gif">
+<img src = "https://lh3.googleusercontent.com/k6QWjGuKB2I-xOzQ9_f1DiFPAcbjSB8deWxUjoBtCkDVae7itHyHogEzUufmnaYjePcSIF0edtTVzAqbNLPzSmAEfSA97W1Hm0kBKDR0dgYsQ3GNrrgdisU1NjSk5DZDqskdVXzeGfTIzbgXyOL_vf91LovU0geYRvD8QE75Y9shM_svkvl2uTDw-fF7fPtnkvHrKn583QBxdVY70ToKgE-MSBOfQMV4rA4y4FONjoqSXCgBo54-HusZS5A1vFGXkIOv1Co2orDuvV-TuqMRiZfMqDFZSipc7k6_1nCa0jmBEwvHecnh4_4kT703SLyXG0i6okqQmAWpSzWvhA9wcQ1DVrR85B7q34AzBqSoQtBY4qCCm_Kuyeqg8Z3h8pJ-_1GQQPYCsVoco-JRUcbVUebzqu4mx8jwj-2NJhccey-YNFQsEcA61Scc7E5tjTuBWjJrXGRmQUvYYQrR1wkYexRYTSGYBYqmIvyDScE4xnKUTZy5Hp5DjkbLSIoP7Nx4WbbvBQgSW2kKJyGF0JuzM3UZICNdfx6UNaGdRV0-h2w3x-lbpiyR9FDyD7voLGZ7C7fL7BCZKm9lHHdd2EkNdomdQVXC1pFMsj-xy_sbv9hKlA6jzOT4-ZcvcDrJ9mgddTdDkORktL7nDl4_xMFYeLE=w1600-h398-no">
 
 개념은 어려워 보이지만 막상 구현은 어렵지 않다. 이를 사용해서 다변량 회귀분석을 텐서플로우 코드로 만들어 보면,
 
