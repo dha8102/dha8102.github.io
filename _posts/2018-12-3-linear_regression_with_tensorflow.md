@@ -177,7 +177,7 @@ plt.show()
 
 결과는 다음과 같다 :
 
-<a href="http://www.imagebam.com/image/6dd5a51066268044" target="_blank"><img src="http://thumbs2.imagebam.com/4c/95/76/6dd5a51066268044.jpg" alt="imagebam.com" align="center"></a>
+<img src = "https://lh3.googleusercontent.com/sG1ARnAGFCCui-UDvuRmeULX7vBq6aNRCJBRi3xPvmeo5ddSt2adg5lR0ncb9YdS3YEvcFk44g0LnLxDAozBndheM7aUDR32V8dDt-7lqXxIAtmxYmx0IXThsyJl1n1wdXWAo51t05jJvgd8SjhfEAGxYzvqdmzvwdAzkPm2Mu9RAiluQ1YdQZhxyi3WncgfYnMngXDS2m2SrN5GKvZ0dswIYlSc-DZ2CSZhY-Nlx7ntfq4fofArot8MGe4mAmXqwJg7I821veoZ5IYi9hIUGhjUIb0X1B3m2wMeBvrZl-dfWTN40H3_PHCayAr-u1R71QLCcaYJ7P5Kn5fP7yZP0-y-bQndpa1s6rQ9dbzudjs94KqKM7URFot75jMqIBLPXFcVdHEanUPog4kqjUUOP9EFlqrUyZlp7rRB2cLjqAXIu9Si3yRM3Kxk8GT4C-TlpbpPXCGcWUi4_514YrBVEbtJ7EAUbnGmtjn-DU7wDfNkMlGV4UeaZusdY6DKxhcjnVL7WhIhRx82XeX_VFmGFaWcsH1C6UpRRuWISrwkqOcIiiffIiKKxKsCv5Lbf3YnFnlugZfQU5rjfWlonYKeI6ORlOjnbzGi3-j4AH1I0y70XovaDLhJnfspMa4P5sJbr9HF_PWi5Iyr_wkH_JVt9yI=w382-h257-no">
 
 파란색이 var1, 노란색이 var2이다. 대략 6000번의 epoch를 거치면서 각각 2.0과 0.5로 수렴하여 간다.
 

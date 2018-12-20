@@ -69,7 +69,9 @@ R7 : V -> likes \| reads \| dogs
 
 이 문법을 통하여 "He likes cricket"를 파싱하면,
 
-<a href="http://www.imagebam.com/image/dd74571066265914" target="_blank"><img src="http://thumbs2.imagebam.com/1b/18/a2/dd74571066265914.jpg" alt="imagebam.com" align="center"></a>
+<img src = "https://lh3.googleusercontent.com/wEYm-_N0Xie1pT4jiRVpG0ES-dPgYn3ugqZH93WHtzqqlmlveS7035vv0GgfWmdyUIHJJEtrMyI2l7hjfstvgfvQEIyyAOavHtLzrx_YIkGdIfQPzv-1XpoosJBnSRiwm8Kfsf7Od95BeISFqwx3cI3U6HZwcVUPlfFIOhcKkCqaBCp78ZgFGxHZQat55svOxcvmB9KiGxkN2-fKlbOOc0zEIXcm7ZeoO409i_MxQMRuTBadT8GB6ZeWNnud1_5HVL0EMLmZGVpZnfutwvyVpXW_mOJUauMOoBStWcm6TSVWShsq4n_ojf5yvrqu1aunBXCqkEs8txxL8Bp-jZueok42aXL_s9idyjnxu-kTUXCz3lBEi4LUITnee-8eGKf-hIfthmSC3T7wva8HWldnDsNNgR_0-JriH0VtVm87Y-CGiC7LoStdW5ItLP0Yc1ewpKi1ofuY02Y_qiQi1NXft-N9e_t_kM5R78Ank2siJt9x-q-fjXJEvQuakVUj75eVmd2DRVNecYLn8AaH62nVxdK4N3vLf2G4BFZvUrMcrZJa7nChrikzk2bWbS_aTYOkfWH5zvmBNDbxLWqc5UIA5fXscaSCPVUUXk5EMBY_NR-hlRT52vMbAusiqyh-kaNAL-RzRZOjXnMOy24ZXrh2-9U=w386-h508-no">
+
+
 
 와 같이 된다.
 
