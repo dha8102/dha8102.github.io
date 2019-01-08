@@ -54,7 +54,7 @@ tags : [Blog, Web]
 
 mathjax는 latex문법으로 수식을 생성하는데, 사용자가 편집하기 좋은 사이트를 소개한다 :
 
-www.codecogs.com
+https://www.codecogs.com/latex/eqneditor.php
 
 여기에 들어가면 수식을 gui로 편집하기 쉽게 되어 있다. 마우스로 열심히 클릭해 수식을 만들면 중앙에 Latex 문법으로 된 수식이 자리잡을 것이다. 이 수식을 복사해 와서 블로그에 붙여넣는다. 그리고 붙여넣은 수식 앞뒤에 $를 붙여주면 완성.
 
