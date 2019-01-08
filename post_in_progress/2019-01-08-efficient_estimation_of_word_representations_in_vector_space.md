@@ -1,6 +1,6 @@
 ---
-layout: post
-title: Efficient Estimation of word Representations in Vector Space
+layout : post
+title : Efficient Estimation of word Representations in Vector Space
 categories : [NLP]
 tags : [NLP, Machine learning, Paper]
 ---
