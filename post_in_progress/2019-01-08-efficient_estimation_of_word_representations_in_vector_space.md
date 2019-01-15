@@ -1,5 +1,5 @@
 ---
-​------------------작성중인 포스트------------------------
+​-------------------- post in progress -----------------
 layout : post
 title : Efficient Estimation of word Representations in Vector Space
 categories : [NLP]
