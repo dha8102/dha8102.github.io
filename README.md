@@ -1,23 +1,27 @@
-# Codinfox-Lanyon
+## 반갑습니다. 테카르타입니다.
 
-This is a jekyll template based on [Lanyon](https://github.com/poole/lanyon). See a live demo [here](http://codinfox.github.io).
+<br>
 
-**If you like this project, PLEASE give it a star.**
+인공지능과 자연어 처리,
 
-Lanyon is an unassuming [Jekyll](http://jekyllrb.com) theme that places content first by tucking away navigation in a hidden drawer. It's based on [Poole](http://getpoole.com), the Jekyll butler.
+딥 러닝에 관심있고
 
-All the configurations are inside either `_config.yml` or `_config.scss`. The options are fairly straightforward. 
+기타를 좋아하는
 
-The theme supports: 
+청년입니다.<br>
 
-1. Theme colors: you can choose your favorite theme color
-2. Changable sidebar locations
-3. Integration of FontAwesome, MathJax, Disqus and Google Analytics
-4. and numerous improvements over original Lanyon
+기술에 관련한 지적 및 토론 격하게 환영합니다.
+
+dha8102@naver.com 으로 연락줘요.
+
+방문하신 모든 분들, 행복하세요.
 
 
-## License
 
-Open sourced under the [MIT license](LICENSE.md).
+<br>
 
-<3
+<br>
+
+지난 프로젝트 : 
+
+- <a href = "https://gitlab.com/pirl-intern/smart-switch" target="_blank">J.A.R.V.I.S.Switch (손의 모션을 인식하여 지정된 동작을 수행하는 프로그램)</a>
