@@ -58,7 +58,7 @@ word2vec의 기본이 되는 논문을 리뷰한다. 매우 중요한 논문이�
 
 먼저 모든 모델의 복잡도는 다음과 같이 정의할 수 있다.
 
-$ O = E\times T\times Q $
+$ O = E\times T\times Q $ - (1)
 
 여기에서
 
@@ -72,3 +72,14 @@ Q : 각각의 모델 구조마다 정의되는 parameter로 보임
 
 ### [2.1 Feedforward Neural Net Language Model(NNLM)]
 
+NNLM은 (1)에서 제안되었다. 이 모델은 input, projection, hidden, output 레이러로 구성된다. input 레이어에서는 N개의 이전 단어들이 V개의 단어장의 언어로부터 one-hot-encoding된다. 이 input 레이어는 N*D 차원을 가진 projection 레이어 P로 사영되는데, 이 때 shared projection matrix를 사용한다. 언제나 N개의 input만 들어가기 때문에 pojection 레이어를 구성하는 것은 상대적으로 쉬운 과정이다.
+
+NNLM 모델의 복잡도는 projection과 hidden 레이어 사이의 계산 때문에 증가하는데, projection 레이어의 값들이 굉장히 밀도있게 들어서 있기 때문이다. N = 10 같은 보통의 경우에, P의 크기는 500~2000 즈음 되는데, 이 때 hidden 레이어 H의 크기는 보통 500~1000을 왔다갔다 한다. 게다가, hidden 레이어는 단어장 내 전체 단어의 확률분포를 계산하여 V의 차원을 가진 output 레이어를 만들어 내는 데에 쓰인다. 따라서 각 training example의 시간복잡도는 다음과 같다 :
+
+$ Q=N\times D + N\times D\times H + H\times V $
+
+(이 때 domination term은 H * V이다)
+
+그러나, 몇 가지 실용적인 솔루션들은 이 방법을 피하는 것을 제안한다. 몇 가지 예로써 hierarchical version의 softmax 함수를 사용하던지, 학습 중에 정규화되지 않은 모델을 사용해서 모델의 정규화를 피하는 방법 등이 있다. 그리고 단어장을 이진 트리로 표현하면 결과의 개수는 $ log_{2}(V) $ 까지 줄어들 수 있다. 그러므로, 시간복잡도에 가장 큰 요인을 차지하는 term은 $ N\times D\times H $이다.
+
+우리의 모델에서, 
