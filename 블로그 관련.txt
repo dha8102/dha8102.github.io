@@ -10,3 +10,6 @@ O/S, Music, NLP, Deep Learning, Machine Learning, Programming
 2. git 관련 명령어 정리
 3. 패캠에서 배웠던 기초통계분석 정리할것
 
+
+--도메인---
+호스팅케이알 (https://www.hosting.kr/servlet/memberSvl)
