@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="de0204d1-6f80-49a6-a861-9841f14ab52d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/_posts/Machine_learning/2019-03-24-data_dividing.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/Machine_learning/2019-03-24-data_dividing.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/블로그 관련.txt" beforeDir="false" afterPath="$PROJECT_DIR$/블로그 관련.txt" afterDir="false" />
-    </list>
+    <list default="true" id="de0204d1-6f80-49a6-a861-9841f14ab52d" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +14,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/Machine_learning/2019-03-24-data_dividing.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="187">
-                <caret line="11" column="59" selection-start-line="11" selection-start-column="59" selection-end-line="11" selection-end-column="59" />
+              <first_editor relative-caret-position="595">
+                <caret line="35" column="31" lean-forward="true" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
               </first_editor>
               <second_editor />
             </state>
@@ -101,12 +98,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1554002617009</updated>
-      <workItem from="1554002619115" duration="80000" />
+      <workItem from="1554002619115" duration="682000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80000" />
+    <option name="totallyTimeSpent" value="682000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -143,8 +140,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/Machine_learning/2019-03-24-data_dividing.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="187">
-            <caret line="11" column="59" selection-start-line="11" selection-start-column="59" selection-end-line="11" selection-end-column="59" />
+          <first_editor relative-caret-position="595">
+            <caret line="35" column="31" lean-forward="true" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
           </first_editor>
           <second_editor />
         </state>
