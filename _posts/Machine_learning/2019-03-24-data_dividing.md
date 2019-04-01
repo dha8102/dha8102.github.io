@@ -1,8 +1,8 @@
 ---
 layout : post
 title : train/dev/test data 나누기
-categories : [Deep Learning, Machine Learning]
-tags :[Deep Learning, Machine Learning]
+categories : [Machine Learning]
+tags : [Deep Learning, Machine Learning]
 ---
 
 ---
