@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 다변량 회귀분석+파일 읽어오기
+title: 다변수 회귀분석+파일 읽어오기
 categories : [Deep learning]
 tags : [Deep learning, Tensorflow, Regression, 모두를 위한 딥러닝]
 ---
@@ -9,15 +9,15 @@ tags : [Deep learning, Tensorflow, Regression, 모두를 위한 딥러닝]
 
 김성훈 교수님 왈,
 
-"일변량 회귀는 Toy Project 수준이고, 일반적으로 많이 쓰이는 회귀는 <b>다변량 회귀</b>이다"
+"일변수 회귀는 Toy Project 수준이고, 일반적으로 많이 쓰이는 회귀는 <b>다변수 회귀(Multivariable Regression)</b>이다"
 
-꽤나 맞는 말. 다변량 회귀 개념도 되돌아볼 겸, 텐서플로우로 다변량 회귀를 진행하는 방법을 포스팅한다.
+꽤나 맞는 말. 다변수 회귀 개념도 되돌아볼 겸, 텐서플로우로 다변수 회귀를 진행하는 방법을 포스팅한다.
 
 추가적으로 외부 파일에 있는 많은 데이터들을 텐서플로우에 올리는 방법을 알아본다.
 
-## [텐서플로우에서 다변량을 표현하는 방법]
+## [텐서플로우에서 다변수 표현하는 방법]
 
-일반적으로 회귀식을 나타낼 때는 <a href="https://www.codecogs.com/eqnedit.php?latex=H(x)=Wx&plus;b" target="_blank"><img src="https://latex.codecogs.com/gif.latex?H(x)=Wx&plus;b" title="H(x)=Wx+b" /></a>로 표현한다. 이건 x가 일변량일 때다. 하지만 다변량일 때는?
+일반적으로 회귀식을 나타낼 때는 <a href="https://www.codecogs.com/eqnedit.php?latex=H(x)=Wx&plus;b" target="_blank"><img src="https://latex.codecogs.com/gif.latex?H(x)=Wx&plus;b" title="H(x)=Wx+b" /></a>로 표현한다. 이건 x가 일변량일 때다. 하지만 다변수일 때는?
 
 "행렬"을 사용하여 표현한다.
 
@@ -34,7 +34,6 @@ x1, x2, x3 3개의 변수를 가진 5개의 데이터 셋으로 각각의 가중
 <a href="https://www.codecogs.com/eqnedit.php?latex=H(x)=XW" target="_blank"><img src="https://latex.codecogs.com/gif.latex?H(x)=XW" title="H(x)=XW" /></a>
 
 텐서플로우에서는 위와 같이, 가중치 행렬이 변량들의 뒤로 가게 된다.
-
 위 그림의 경우에서, X는 [5, 3]이고 W는 [3, 1], 우변은 [5, 1]의 shape를 가진다. 요것이 일반화되면
 
 <b>X가 [a, b]의 shape를 가지고 W가 [b, c]의 shape를 가지면 우변은 [a, c]의 shape를 가진다.</b>
@@ -47,7 +46,7 @@ shape 계산이 헷갈릴 때 요것만 머릿속에 넣고 있으면 안 헷갈
 
 <img src = "https://lh3.googleusercontent.com/k6QWjGuKB2I-xOzQ9_f1DiFPAcbjSB8deWxUjoBtCkDVae7itHyHogEzUufmnaYjePcSIF0edtTVzAqbNLPzSmAEfSA97W1Hm0kBKDR0dgYsQ3GNrrgdisU1NjSk5DZDqskdVXzeGfTIzbgXyOL_vf91LovU0geYRvD8QE75Y9shM_svkvl2uTDw-fF7fPtnkvHrKn583QBxdVY70ToKgE-MSBOfQMV4rA4y4FONjoqSXCgBo54-HusZS5A1vFGXkIOv1Co2orDuvV-TuqMRiZfMqDFZSipc7k6_1nCa0jmBEwvHecnh4_4kT703SLyXG0i6okqQmAWpSzWvhA9wcQ1DVrR85B7q34AzBqSoQtBY4qCCm_Kuyeqg8Z3h8pJ-_1GQQPYCsVoco-JRUcbVUebzqu4mx8jwj-2NJhccey-YNFQsEcA61Scc7E5tjTuBWjJrXGRmQUvYYQrR1wkYexRYTSGYBYqmIvyDScE4xnKUTZy5Hp5DjkbLSIoP7Nx4WbbvBQgSW2kKJyGF0JuzM3UZICNdfx6UNaGdRV0-h2w3x-lbpiyR9FDyD7voLGZ7C7fL7BCZKm9lHHdd2EkNdomdQVXC1pFMsj-xy_sbv9hKlA6jzOT4-ZcvcDrJ9mgddTdDkORktL7nDl4_xMFYeLE=w1600-h398-no">
 
-개념은 어려워 보이지만 막상 구현은 어렵지 않다. 이를 사용해서 다변량 회귀분석을 텐서플로우 코드로 만들어 보면,
+개념은 어려워 보이지만 막상 구현은 어렵지 않다. 이를 사용해서 다변수 회귀분석을 텐서플로우 코드로 만들어 보면,
 
 ```python
 import tensorflow as tf
